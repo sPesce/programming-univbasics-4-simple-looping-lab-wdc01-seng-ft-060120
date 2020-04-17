@@ -28,7 +28,7 @@ end
 
 def return_string_array(array)
   i = 0 
-  new_array = new.Array()
+  new_array = Array.new(array.length)
   
   while i < array.length do
     temp = array[i]
