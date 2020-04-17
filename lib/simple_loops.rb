@@ -27,7 +27,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  int i = 0 
+  i = 0 
   new_array(array.length)
   
   while i < array.length do
