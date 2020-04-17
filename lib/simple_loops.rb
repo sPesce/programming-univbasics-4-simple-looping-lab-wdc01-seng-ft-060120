@@ -32,7 +32,7 @@ def return_string_array(array)
   
   while i < array.length do
     temp = array[i]
-    new_array[i] = temp
+    new_array[i] = temp.to_s 
     i += 1 
   end
   new_array
