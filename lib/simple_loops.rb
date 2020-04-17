@@ -13,9 +13,15 @@ def loop_message_n_times(message, n)
   i = 0 
   while i < n do 
     puts message
+    i+=1 
+    
   end 
 end 
 
 def output_array(array)
-  array.
+  i = 0 
+  while i < array.length do 
+    puts array[i]
+    i+=1 
+  end 
 end
